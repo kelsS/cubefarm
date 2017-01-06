@@ -1,0 +1,287 @@
+body {
+	overflow: hidden;
+}
+
+/*DESK TWO PAGE*/
+
+#desktwo {
+	overflow: hidden;
+	background-image: url(../img/desk2.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000;
+}
+
+@media only screen and (max-width: 1366px) {
+	body#desktwo{
+		background-image: url(../img/desk2_1366.gif);
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+	body#desktwo{
+		background-image: url(../img/desk2_1280.gif);
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	body#desktwo {
+		background-image: url(../img/desk2_1095.gif);
+	}
+
+}
+
+@media only screen and (max-width : 320px) {
+	body#desktwo {
+		background-image: url(../img/desk2_1095.gif);
+	}
+}
+
+@media only screen and (max-width : 240px) {
+	body#desktwo {
+		background-image: url(../img/desk2_1095.gif);
+	}
+}
+
+/*DESK THREE PAGE*/
+
+#deskthree {
+	overflow: hidden;
+	background-image: url(../img/deskinvert_1920.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000;
+}
+
+@media only screen and (max-width: 1366px) {
+	body#deskthree{
+		background-image: url(../img/deskinvert_1366.gif);
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+	body#deskthree{
+		background-image: url(../img/deskinvert_1280.gif);
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	body#deskthree {
+		background-image: url(../img/deskinvert_767.gif);
+	}
+
+}
+
+@media only screen and (max-width : 320px) {
+	body#deskthree {
+		background-image: url(../img/deskinvert_600.gif);
+	}
+}
+
+@media only screen and (max-width : 240px) {
+	body#deskthree {
+		background-image: url(../img/deskinvert_600.gif);
+	}
+}
+
+/*Back link to home*/
+
+#postitlinks {
+	position: relative;
+	width: 100%;
+    height: 100%;
+    margin-top: 18%;
+    margin-left: 65%;
+	z-index: 3;
+}
+
+@media only screen and (max-width: 1400px) {
+	#postitlinks{
+	    margin-top: 22%;
+        margin-left: 68%;
+
+	}
+
+}
+
+@media only screen and (max-width: 1450px) {
+	#postitlinks{
+	   margin-top: 22%;
+       margin-left: 68%;
+
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+	#postitlinks{
+	    margin-top: 28%;
+	    margin-left: 45%;
+}
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	#postitlinks{
+		margin-top: 35%;
+    	margin-left: -2%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#postitlinks{
+	    margin-top: 45%;
+	    margin-left: 35%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#postitlinks{
+	    margin-top: 65%;
+	    margin-left: 30%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#postitlinks{
+	    margin-top: 95%;
+	    margin-left: 25%;
+	}
+}
+
+.hiddenlink {
+	position: fixed;
+	display: block;
+	width: 280px;
+	height: 280px;
+	top: 0;
+	left: 0;
+    margin-left: 25%;
+    margin-top: 48%;
+}
+
+@media only screen and (min-width: 1385px) and (max-width: 1920px) {
+	.hiddenlink {
+	    margin-left: 58%;
+	    margin-top: 30%;
+	    height: 30%;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1385px) {
+	.hiddenlink {
+	    margin-left: 58%;
+    	margin-top: 40%;
+	}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+	.hiddenlink {
+    	margin-left: 28%;
+	}
+}
+
+
+
+@media only screen and (min-width: 760px) and (max-width: 900px) {
+	.hiddenlink {
+	    margin-left: 18%;
+    	margin-top: 65%;
+	}
+}
+
+@media only screen and (min-width: 500px) and (max-width: 760px) {
+	.hiddenlink {
+	    margin-left: 15%;
+	    margin-top: 75%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.hiddenlink {
+	    margin-top: 110%;
+	    margin-left: 2%;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	.hiddenlink {
+	    margin-top: 165%;
+	    margin-left: -10%;
+	}
+}
+
+/*Back link from monitor-two page*/
+
+#postit-home{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 40%;
+    margin-left: -15%;
+}
+
+#postit-home img {
+	position: absolute;
+	z-index: 2;
+
+}
+
+@media only screen and (max-width: 1280px) {
+	#postit-home{
+	    margin-top: 60%;
+	    margin-left: -20%;
+	}
+
+}
+
+@media only screen and (max-width: 1020px) {
+	#postit-home{
+	    margin-top: 74%;
+	    margin-left: -22%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#postit-home{
+	    margin-top: 98%;
+	    margin-left: -25%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#postit-home{
+	    margin-top: -10%;
+	    margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#postit-home{
+	    margin-top: -12%;
+	    margin-left: -5%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#postit-home{
+	    margin-top: 150%;
+	    margin-left: -5%;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	#postit-home{
+	    margin-top: -20%;
+	    margin-left: -50%;
+	}
+}

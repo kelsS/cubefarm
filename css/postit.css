@@ -1,0 +1,66 @@
+/*Back link from monitor-two page*/
+
+#postit-home{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 40%;
+    margin-left: -15%;
+}
+
+#postit-home img {
+	position: absolute;
+	z-index: 2;
+
+}
+
+@media only screen and (max-width: 1280px) {
+	#postit-home{
+	    margin-top: 60%;
+	    margin-left: -20%;
+	}
+
+}
+
+@media only screen and (max-width: 1020px) {
+	#postit-home{
+	    margin-top: 78%;
+	    margin-left: -22%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#postit-home{
+	    margin-top: 98%;
+	    margin-left: -25%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#postit-home{
+	    margin-top: -10%;
+	    margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#postit-home{
+	    margin-top: -12%;
+	    margin-left: -5%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#postit-home{
+	    margin-top: 150%;
+	    margin-left: -5%;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+	#postit-home{
+	    margin-top: -20%;
+	    margin-left: -50%;
+	}
+}
